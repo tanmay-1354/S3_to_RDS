@@ -1,0 +1,15 @@
+Create a Lambda Function:
+
+Go to the AWS Management Console and navigate to the Lambda service.
+Click on "Create function."
+Choose "Container image" as the option for the runtime.
+Enter a name for your function and select the ECR repository and image that you pushed earlier.
+Configure the function as needed (e.g., memory, timeout, etc.).
+Click on "Create function."
+Test the Lambda Function:
+
+In the Lambda console, click on your function to open it.
+Click on "Test" in the top right corner.
+Create a new test event (you can use a sample event template).
+Click on "Test" to invoke the Lambda function with the test event.
+View the results in the "Execution result" tab to see if your function executed successfully.
