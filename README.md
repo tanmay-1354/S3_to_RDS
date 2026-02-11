@@ -16,11 +16,11 @@ CloudFormation stack must be deployed in Account B (client account).
 
 Account A:
 
-         - Admin/root or IAM with sts:AssumeRole permission
+  - Admin/root or IAM with sts:AssumeRole permission
 
 Account B:
 
-             - Admin/root to deploy CloudFormation  
+  - Admin/root to deploy CloudFormation  
   - Enable IAM access to Billing
 
 ##  **Steps in Account B (Client)**
@@ -52,7 +52,7 @@ Account B:
 
 ## **Steps in Account A**
 
-7\.      Login to Account A
+7\.     Login to Account A
 
 8\.     Click Switch Role
 
@@ -65,9 +65,9 @@ Account B:
 
 Enter the following details:
 
-    **Account ID:** The target/client account ID (Account B)  
-    **Role name:** The role created by the CloudFormation stack  
-    **Display name:** Optional label
+    Account ID: The target/client account ID (Account B)  
+    Role name: The role created by the CloudFormation stack  
+    Display name: Optional label
 
 ![][image4]
 
