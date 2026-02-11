@@ -70,8 +70,6 @@ Account B:
 \- In the AWS Management Console, click the account name in the top-right corner.  
 \- Select **Switch Role**.
 
-                     ![][image3]
-
 9\.     Enter Account B ID and Role Name
 
 Enter the following details:
@@ -80,7 +78,7 @@ Enter the following details:
     **Role name:** The role created by the CloudFormation stack  
     **Display name:** Optional label
 
-![][image4]
+
 
 10\.  Switch and access Billing console
 
