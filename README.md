@@ -16,12 +16,12 @@ CloudFormation stack must be deployed in Account B (client account).
 
 Account A:
 
-         \- Admin/root or IAM with sts:AssumeRole permission
+         - Admin/root or IAM with sts:AssumeRole permission
 
 Account B:
 
-             \- Admin/root to deploy CloudFormation  
-  \- Enable IAM access to Billing
+             - Admin/root to deploy CloudFormation  
+  - Enable IAM access to Billing
 
 ##  **Steps in Account B (Client)**
 
@@ -42,9 +42,9 @@ Account B:
 
 5\.      Enter Account A ID as parameter
 
-      \- During stack creation, you will be prompted to enter the **AccountAId** parameter.
+      - During stack creation, you will be prompted to enter the **AccountAId** parameter.
 
-      \- In this field, enter the AWS account ID of the **source account** — the account from
+      - In this field, enter the AWS account ID of the **source account** — the account from
 
 ![][image2]
 
