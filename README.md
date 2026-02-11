@@ -51,7 +51,7 @@ Upload the template from:
 cross-account-billing/template/billing-role.yaml
 
 
-![Create Stack](cross-account-billing/images/Cloudformation-stack-1.png)
+![Create Stack](cross-account-billing/images/cloudformation-stack-1.png)
 
 ---
 
@@ -77,7 +77,7 @@ Parameter value:
 AccountAId = 891377084904
 
 
-![Stack Details](cross-account-billing/images/Cloudformation-stack-2.png)
+![Stack Details](cross-account-billing/images/cloudformation-stack-2.png)
 
 Click **Create Stack** and wait until:
 
