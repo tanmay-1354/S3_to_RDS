@@ -1,0 +1,24 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: Allow Account A to view billing
+
+Parameters:
+  AccountAId:
+    Type: String
+    Description: Account ID that will access this account
+
+Resources:
+  BillingReadOnlyRole:
+    Type: AWS::IAM::Role
+    Properties:
+      RoleName: BillingReadOnlyClient
+
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: Allow
+            Principal:
+              AWS: !Sub "arn:aws:iam::${AccountAId}:root"
+            Action: sts:AssumeRole
+
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/job-function/Billing
